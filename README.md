@@ -79,7 +79,7 @@ ai-cs-bot/
 ### 🧩 Prerequisites
 - Python 3.10+
 - Node.js 18+
-- npm or yarn
+- npm
 - Git
 - OpenAI API key
 
