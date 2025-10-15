@@ -177,7 +177,6 @@ If any keyword is detected, the bot will return an escalation message:
 | `POST` | `/sessions` | Create new user session |
 | `POST` | `/message` | Send user message → get AI response |
 | `POST` | `/sessions/{id}/summarize` | Summarize entire chat session |
-| `GET` | `/faq/search` | Get relevant FAQ entries |
 
 ---
 
@@ -190,7 +189,7 @@ If any keyword is detected, the bot will return an escalation message:
 | **Database** | SQLite |
 | **AI/LLM** | OpenAI GPT-4o-mini |
 | **Prompt Handling** | LangChain |
-| **Hosting Options** | Uvicorn (backend), Vercel/Netlify (frontend) |
+| **Hosting Options** | Uvicorn (backend), next.js (frontend)|
 
 ---
 
@@ -222,12 +221,6 @@ If any keyword is detected, the bot will return an escalation message:
 - “I need a refund for my purchase.”
 - “I can’t log in to my account.”
 - “Cancel my order immediately.”
-
----
-
-## 📜 License  
-This project is licensed under the **MIT License**.  
-Free to use for educational and research purposes.
 
 ---
 
